@@ -1,0 +1,29 @@
+.profile-card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 16px;
+    text-align: center;
+    width: 200px;
+    margin: 16px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .profile-card__image {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 16px;
+  }
+  
+  .profile-card__name {
+    font-size: 1.2em;
+    margin: 0;
+    color: #333;
+  }
+  
+  .profile-card__age {
+    font-size: 1em;
+    color: #555;
+  }
+  
